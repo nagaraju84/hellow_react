@@ -1,0 +1,78 @@
+
+/*Element selector */
+/*
+p{
+    background-color: cyan;
+    text-decoration: green;
+    padding: 20;
+    text-align: center;
+} */
+
+/*Id selector */
+#test1 {
+    background-color: coral;
+    padding: 20;
+    margin-right: 40;
+}
+
+/* Class selectro  */
+.sample{
+    background-color: indigo;
+    text-align: left;
+}
+
+p.center {
+    text-align: center;
+    color: red;
+  }
+ 
+  p.large {
+    font-size: 300%;
+  }
+
+  /*The descendant selector matches all elements that are descendants of a specified element. */
+  /*div p {
+    background-color: yellow;
+  } */
+
+  /* The child selector selects all elements that are the children of a specified element. */
+  /* div > p {
+    background-color: yellow;
+  } */
+
+  /* The adjacent sibling selector selects all elements that are the adjacent siblings of a specified element */
+  /* div + p {
+    background-color: blue;
+  } */
+
+/* The general sibling selector selects all elements that are siblings of a specified element. */
+  div ~ p {
+    background-color: blue;
+  }
+
+
+ /* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+
+  a.highlight:hover {
+    color: #ff0000;
+  }
+  div:hover{
+      background-color: blue;
+  }
+
+  div:hover p {
+    display: block;
+  }
